@@ -78,6 +78,14 @@ let navbar=()=>{
     `;
 }
 
+let onclickfn=()=>{
+    document.getElementById('hlogin_btn').addEventListener('click',()=>{
+        window.location.href='../pages/login.html';
+    });
+    document.getElementById('hplan_btn').addEventListener('click',()=>{
+        window.location.href='../pages/buyPlan.html';
+    })
+}
 
 
 let navtvshow = (data, id, appendto) => {
@@ -141,6 +149,7 @@ showops();
 getfilter('.filter1','.drop_tv_shows');
 getfilter('.filter2','.drop_movies');
 getfilter('.filter3','.drop_news');
+onclickfn();
 
 }
 
