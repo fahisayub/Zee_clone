@@ -1,0 +1,206 @@
+#footer_top{
+    margin:auto;
+    /* text-align: center; */
+    width:100%;
+    background-color: #0f0617;
+    border-top:0.0001px solid rgb(36, 34, 34)
+}
+
+#footer{
+    height: auto;
+    background-color: #0f0617;
+    font-size: 12px;
+    width: 80%;
+    margin: auto;
+    
+    
+}
+
+#footer a:hover{
+    color: rgb(130, 130, 230)
+}
+
+#footer a {
+    color: rgba(250, 226, 226, 0.5);
+}
+
+#footer p, h4{
+    color: #ffffff;
+}
+
+
+.mainrow{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    gap:80px;
+    margin-left: -20px;
+    
+    
+}
+.mainrow > .footer-colm{
+    margin-top: 10px;
+
+    
+}
+.footer-colm>div{
+    margin-top:16px;
+}
+.ending_para{
+    margin-top: 7%;
+    margin-left: -3%;
+    font-size: 13px;
+    color:hsla(0,0%,100%,.5) ;
+    width:50%
+} 
+footer h3{
+    font-weight: 20px;
+    color: white;
+}
+.socialmedia{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    margin-left: -2%;
+}
+
+.social h4{
+    margin-right: 10px;
+    cursor: pointer;
+}
+.social a{
+    margin-right: 10px;
+}
+
+.social{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;    
+} 
+
+.socialmedialogo{    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;  
+}
+.socialmedialogo a{
+    margin-left: 10px ;
+    margin-top: -4%;   
+}
+
+a{
+    text-decoration:none;
+}
+.logo-On{
+    width:40px;
+    height:40px;
+}
+.aboutus{
+    width:40%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: -2%;
+    cursor: pointer;
+    
+    
+}
+
+footer p{
+    text-align: center;
+    font-size: 11px;
+    
+}
+
+footer h4{
+    margin-top: 10px;
+}
+.socialmedialogo a{
+    width: 40px;
+    height: 40px;
+    background-color:rgb(43, 40, 40);
+    border-radius: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.socialmedialogo i{
+    font-size: 15px;
+    color: rgb(245, 242, 238);
+}
+.socialmedialogo h4{
+
+    cursor: pointer;
+}
+.socialmedialogo .fb:hover{
+    background-color: blue;
+    cursor: pointer;
+    
+}
+.socialmedialogo .insta:hover{
+    background-color: rgb(211, 12, 128);
+    cursor: pointer;
+}
+.socialmedialogo .twitter:hover{
+    background-color: rgb(20, 153, 230);
+    cursor: pointer;
+}
+.socialmedialogo .youtube:hover{
+    background-color: rgb(252, 47, 10);
+    cursor: pointer;
+}
+@media all and (min-width:51px ) and (max-width: 381px){
+    .aboutus{
+        width:80%;
+        margin:20px auto ;
+        display: flex;
+        flex-wrap: wrap;        
+        justify-content: space-between;
+        
+    }
+    .socialmedialogo{
+        margin-top: 20px;
+        flex-wrap: nowrap;
+    }
+    .social> h4{
+        display: none;
+        
+    }
+    .socialmedialogo > h4{
+        display: none;
+        
+    }
+    .socialmedialogo a{
+        margin-right: 10px    
+    }
+
+}
+
+@media all and (min-width:380px ) and (max-width: 981px){
+    .aboutus{
+        width:80%;
+        margin:20px auto ;
+        display: flex;
+        flex-wrap: wrap;        
+        justify-content: space-between;
+        
+    }
+    .socialmedialogo{
+        margin-top: 20px;
+        flex-wrap: nowrap;
+    }
+    .social{
+        flex-wrap: nowrap;
+    }
+}
