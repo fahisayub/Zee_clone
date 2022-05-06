@@ -9,7 +9,7 @@ let loginFun = (event) => {
 
     if(crediential===data.email){
         alert("Login Success :-)")
-        window.location.href="index.html";
+        window.location.href="../index.html";
     }else{
         alert("Fill corect details.")
     }

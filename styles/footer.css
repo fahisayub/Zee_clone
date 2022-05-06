@@ -1,9 +1,16 @@
+
 #footer_top{
-    margin:auto;
-    /* text-align: center; */
+    margin:0px;
     width:100%;
     background-color: #0f0617;
-    border-top:0.0001px solid rgb(36, 34, 34)
+    border-top:0.5px solid rgb(36, 34, 34);
+    position: relative;
+    top: 0;left: 0;right: 0;bottom: 0;
+    padding: 0px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    
+    
 }
 
 #footer{

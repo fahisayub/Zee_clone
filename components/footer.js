@@ -102,16 +102,6 @@ let footer=() => {
          </footer>
     `
     }
-
-    let footercsslink=() =>{
-        return`
-        <script
-      src="https://kit.fontawesome.com/24c494a6b6.js"
-      crossorigin="anonymous"
-    ></script>
-
-	<link rel="stylesheet" href="style/footer.css">
-        `
-    }
+ 
     
-    export {footer,footercsslink}
+    export {footer}

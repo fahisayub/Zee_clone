@@ -4,8 +4,8 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 #navbar{
-    background-color: black;
-    display: flex;
+  background-color: #0f0617;
+  display: flex;
     height: 60px;
     justify-content: space-between;
     position:fixed;

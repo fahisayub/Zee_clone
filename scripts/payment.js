@@ -12,7 +12,7 @@ let myfunc = () =>{
     },4000)
 
     id = setTimeout(()=>{
-        window.location.href="index.html"
+        window.location.href="../index.html"
     },6000)
 }
 

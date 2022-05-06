@@ -15,7 +15,7 @@ let signUpFun = (event) => {
     }else{
         // alert("Now you have to fill ")
         localStorage.setItem("credits",JSON.stringify(form_data));
-        window.location.href="login.html"
+        window.location.href="../pages/login.html"
     }
 
 }
