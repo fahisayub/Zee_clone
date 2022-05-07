@@ -9,5 +9,5 @@ document.querySelector('#footer_top').innerHTML=footer();
 //.........................................................//
 //slider
 import { tvshowslider,swiperfn } from '../components/tvshow_slider.js';
-document.getElementById('swiper').innerHTML=tvshowslider();
+document.getElementById('slider').innerHTML=tvshowslider();
 swiperfn();
