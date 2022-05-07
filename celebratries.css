@@ -1,0 +1,136 @@
+* {
+    background-color: black;
+}
+.next2-B {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  .next2-B {
+    right: 0%;
+    border-radius: 3px 0 0 3px;
+  }
+  .next2-B:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+
+  /* .card_B > img {
+    vertical-align: middle;
+  } */
+  top_heading-B > p {
+      font-size: 32px;
+  }
+
+  .top_heading-B>a, .text_bottom-B>a, .crown-B>a {
+    text-decoration: none;
+   }
+   
+.container-B{
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+
+.top_heading-B{
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    /* font-size: 32px; */
+    
+}
+
+
+
+.top_heading-B>p,a{
+    margin-top: 10px;
+}
+.top_heading-B a{
+    color:#a785ff;
+}
+
+
+
+  /* .card_container-B {
+      height: 250px;
+      display: flex;
+      align-items: center;
+      transform: translateX(0);
+      transition: all 0.4s ease-in-out;
+      border: 1px solid red
+  
+  } */
+  /* .card-B{
+      min-width: 100px;
+      height: 250px;
+      border-radius: 5px;
+      margin-top: 1%;
+      position: relative;
+      transition: 00.3s;
+      margin-right: 25px;
+      border: 1px solid green;
+
+  } */
+    
+  
+  /* .card-B >img{
+      width: 100%;
+      height: 250px;
+      border-radius: 50%;
+  } */
+
+  /* .card-B:hover .text-B{
+      display: inherit;
+  } */
+  
+   
+
+  
+  .featured {
+    position: relative;
+    overflow: hidden;
+    /* margin: 10px 0; */
+  }
+  
+
+
+
+
+   .card_container-B  {
+     display: flex;
+     height: 200px;
+     width: 100%;
+     gap: 20px;
+     align-items: center;
+     transform: translateX(0);
+     transition: all 0.4s ease-in-out;
+     
+  }
+  
+  .card-B >img{
+      border-radius: 50%;
+      height: 120px;
+      width: 120px;
+      /* gap: 20px; */
+  } 
+
+  .card-B {
+      text-align: center;
+     
+     
+     
+  }
+  .card-B > p {
+    font-size: 14px;
+    color: #ffffff;
+  }
