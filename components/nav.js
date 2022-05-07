@@ -1,3 +1,22 @@
+import { getData,append } from "../components/fetch.js";
+function urlgen(query){
+    return`https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=30&q=${query}&key=AIzaSyBeU-DnQigJkuYx0D3aquzQUJEdJSRiE9k`;
+}
+
+let  getvideos=async()=>{
+    let read=id=>{
+        return document.getElementById(id).value;
+    }
+    let query=read('query');
+   const url=urlgen(query);
+   let data=await getData(url);
+   console.log(data);
+   
+  
+   
+}
+
+
 
 let navbar=()=>{
     return `
@@ -6,7 +25,7 @@ let navbar=()=>{
 
 
             <li><a class="h_onhover" id="home" href="../index.html">Home</a></li>
-            <li class="dropdown"><a class="h_onhover " href="../pages/tvShows.html">TV Shows</a>
+            <li class="dropdown"><a id='tvshow' class="h_onhover " href="../pages/tvShows.html">TV Shows</a>
                 <div class="dropdown-content">
                     <div class="filter1">
                         <a id="Top Hindi" href="#">Top Hindi Shows</a>
@@ -80,10 +99,10 @@ let navbar=()=>{
 
 let onclickfn=()=>{
     document.getElementById('hlogin_btn').addEventListener('click',()=>{
-        window.location.href='../pages/login.html';
+        window.location.href='/pages/login.html';
     });
     document.getElementById('hplan_btn').addEventListener('click',()=>{
-        window.location.href='../pages/buyPlan.html';
+        window.location.href='/pages/buyPlan.html';
     })
 }
 
@@ -116,11 +135,7 @@ let navtvshow = (data, id, appendto) => {
 
     })
 }
-// let gettab=()=>{
-//     let tabs=document.querySelector('.h_onhover').id;
-//     console.log(tabs);
-// }
-// gettab();
+
 
 let getfilter = (filterno, appendto) => {
     let moviedata = JSON.parse(localStorage.getItem('moviehover'));
@@ -143,13 +158,39 @@ let showops = () => {
         document.getElementById('hnmore_ops').append(option);
     })
 }
+let hilighttab=(id)=>{
+    if(id!='search'){
+        let target=document.getElementById(id).style;
+        target.textDecoration='underline';
+        target.textUnderlineOffset='10px';
+        target.textDecorationThickness='2px';
+    }
+    
+}
 
-let features=()=>{
+let features=(id)=>{
 showops();
 getfilter('.filter1','.drop_tv_shows');
 getfilter('.filter2','.drop_movies');
 getfilter('.filter3','.drop_news');
 onclickfn();
+hilighttab(id);
+document.getElementById('query').addEventListener('keyup',e=>{
+    if(e.code=='Enter'){
+        getvideos();
+        setTimeout(() => {
+            window.location.href='../pages/searchresult.html'; 
+        }, 1500);
+        
+     
+
+    }
+});
+if(id=='search'){
+    let data=  JSON.parse(localStorage.getItem('sresult'))||[];
+    append(data);
+}
+
 
 }
 
