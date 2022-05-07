@@ -12,8 +12,9 @@ body {
   margin: 0;
   padding: 0;
 } */
-#swiper{
+#slider{
     display: flex;
+    height:400px
 }
 
 .swiper {
