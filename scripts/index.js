@@ -10,5 +10,5 @@ document.querySelector('#footer_top').innerHTML=footer();
 
 //swiper
 import { homeslider,swiperfn } from '../components/homeslider.js';
-document.getElementById('swiper').innerHTML=homeslider();
+document.getElementById('slider').innerHTML=homeslider();
 swiperfn();
