@@ -124,6 +124,8 @@ let navtvshow = (data, id, appendto) => {
                 }
                  localStorage.setItem('tvshow',JSON.stringify(show));
                 window.location.href = '../pages/tvshow_intropage.html'
+            }else if(appendto=='.drop_movies'){
+                window.location.href='../pages/youtube.html';
             }
 
         });
