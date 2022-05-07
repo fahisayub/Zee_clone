@@ -99,10 +99,10 @@ let navbar=()=>{
 
 let onclickfn=()=>{
     document.getElementById('hlogin_btn').addEventListener('click',()=>{
-        window.location.href='/pages/login.html';
+        window.location.href='../pages/login.html';
     });
     document.getElementById('hplan_btn').addEventListener('click',()=>{
-        window.location.href='/pages/buyPlan.html';
+        window.location.href='../pages/buyPlan.html';
     })
 }
 

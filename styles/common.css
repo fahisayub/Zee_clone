@@ -6,4 +6,5 @@ html,body{
 }
 #content{
     min-height: 50%;
+    z-index: 0;
 }

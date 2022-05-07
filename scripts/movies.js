@@ -7,3 +7,7 @@ features('movies');
 import { footer } from '../components/footer.js';
 document.querySelector('#footer_top').innerHTML=footer();
 //.........................................................//
+//slider
+import { movieslider,swiperfn } from '../components/movie_slider.js';
+document.getElementById('swiper').innerHTML=movieslider();
+swiperfn();
