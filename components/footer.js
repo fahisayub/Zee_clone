@@ -25,7 +25,7 @@ let footer=() => {
                
                <div class="aboutus">
                 
-                   <a href="pages/about.html">About us</a>
+                   <a href="about.html">About us</a>
         
                     <a>|</a>
                 

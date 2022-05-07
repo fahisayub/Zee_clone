@@ -9,14 +9,14 @@
     src="https://kit.fontawesome.com/24c494a6b6.js"
     crossorigin="anonymous"
   ></script>
-
-    <link rel="stylesheet" href="style/footer.css">
+  <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="styles/footer.css">
     <style>
         #about_to_us{
             margin: auto;
         
             background-color: #0f0617;
-            height:400px
+            height:450px
         }
         #about_to_us>h1{
           color:#D8D8D8;
@@ -66,11 +66,11 @@
     </div>
     
 
-    <div id="footer_top"></div>
+    <footer id="footer_top"></footer>
 </body>
 </html>
 <script type="module">
-import {footer} from "../component/footer.js"
+import {footer} from "../components/footer.js"
 let n=document.getElementById("footer_top")
 n.innerHTML=footer()
 </script>
