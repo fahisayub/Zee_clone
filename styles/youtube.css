@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(7, 6, 24);
+    color: #fff;
+    font-family: NotoSansBold, sans-serif;
+}
+::-webkit-scrollbar {
+    width: 7px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(56, 55, 55); 
+    border-radius: 15px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(168, 155, 155); 
+}
+#main{
+    width: 95%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;   
+    gap: 10px;
+}
+#youtube{
+    width: 65%;   
+}
+#videoData{   
+    border-radius: 10px;
+}
+#videoData>iframe{
+    border-radius: 20px 20px 0 0 ;
+    border: none;
+}
+
+
+#local{    
+    width: 35%;
+    height: 1100px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* border: 1px solid red; */
+    overflow: scroll;
+    overflow-x: hidden;
+       
+}
+
+#local>div{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    /* padding: 5px; */
+    position: relative;
+    transition: .2s;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#local>div>img{
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+    transition: .2s;
+    cursor: pointer; 
+}
+#local>div:hover{
+    outline: 6px solid white;
+    transform: scale(1.03);  
+}
+.text>div{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.blue_butten{
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+.blue_butten:hover{
+    background-color: blueviolet;
+}
+.more_blue{
+    color: blue;
+}
+.text{
+    width: 96%;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.944);
+    border-radius: 0 0 10px 10px;
+    display: none;
+    padding: 5px;
+    line-height: 40px;
+    color: black;
+    transition: 0.4s;
+    overflow: hidden;
+}
+.card:hover .text{
+    display: inherit;
+}
+.container:hover .overlay {
+    opacity: 1;
+}
+
+
+
+#poster>div{
+    width: 100%;
+    line-height: 40px;
+    padding: 15px;
+    display: block;
+  
+    
+}
+#cast{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+#moviename{
+    color: rgb(75, 65, 65);
+}
+#tvshow_details{
+    text-align: left;
+}
+#about_show{
+    color:gray
+}
+#share_promo{
+    width: 200px;
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+#share_promo p{
+   color:gray
+   
+}
+
+#share_promo i{
+    font-size: 30px;
+   
+}
+
+#latest_ep_btn{
+    width: 260px;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color:#8230c6;
+    border-radius: 5px;
+    border:none;
+    font-size: 15px;
+    justify-content: space-between;
+    display: flex;
+    margin-left:250px;
+    margin-top: 420px;
+   
+    
+}
+#latest_ep_btn>i{
+    font-size: large;
+}
+#latest_ep_btn>div{
+    margin:auto;
+   box-sizing: border-box;
+    
+}
+#justBelowYoutube{
+    width: 97.9%;
+    margin: auto;
+    margin-top: -0.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 0 0 15px 15px;
+    background-image: linear-gradient(to bottom right, rgb(15, 48, 127), rgb(176, 241, 24));
+}
+#justBelowYoutube>div>img{
+    width: 70px;
+}
+#rent_button{
+    background-color: blueviolet;
+    border: none;
+    /* font-size: large; */
+    color: #fff;
+    padding: 8px;
+    border-radius: 10px;
+}
+#image_youtube{
+    margin-top: 15px;
+}
+#image_youtube>img{
+    width: 100%;
+}
+#bar{
+    width: 92%;
+    margin: auto;
+    display: flex;
+    margin-top: -18px;    
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to bottom right, rgb(84, 55, 10), rgb(113, 8, 88));
+    padding: 10px;
+    border-radius: 5px;
+}
+#bar>div>img{
+    width: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

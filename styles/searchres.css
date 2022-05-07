@@ -1,0 +1,58 @@
+#content{
+    padding-top:80px;
+    width: 90%;
+    margin: auto;
+}
+#result{
+    
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap:10px;
+    margin:auto;
+}
+.movie
+    {
+    min-height: 150px;
+    min-width: 250px;
+    margin:auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 0px;
+    transition: 0.5s;
+    box-sizing: border-box;
+      
+
+   
+}
+.titlebox{
+    display: none;
+    margin: 0;
+    position: relative;
+    width: 101%;
+    height: 70px;
+ background-color: white;
+    color: black;
+    top:73px;
+    bottom:0;
+    left: 0;;
+    right: 0;
+    padding:20px;
+    font-size: 10px;
+    box-sizing: border-box;
+}
+.movie:hover{
+   
+    border:5px solid white;
+    transform: scale(1.2);
+    z-index: 1;
+   
+}
+.movie:hover .titlebox{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    transform: translateX(0);
+    transition: all .5 ease-out 1s;
+}

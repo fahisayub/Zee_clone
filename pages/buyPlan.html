@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="https://www.zee5.com/images/ZEE5_logo.svg?ver=2.51.46">
+    <script
+      src="https://kit.fontawesome.com/24c494a6b6.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Subscribe to ZEE5</title>
+    <link rel="stylesheet" href="../styles/buy.css" />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <style>
+      body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+
+      .swiper {
+        width: 55%;
+        height: 26%;
+        padding: 25px;
+        font-weight: bold;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 26px;
+        background: rgba(0, 0, 0, 0.11);
+        color: white;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+     
+    </style>
+  </head>
+
+  <body>
+    <img id="bg" src="../img/bg2.png" alt="" />
+
+    <div id="navbar">
+      <div>
+        <img
+          src="https://www.zee5.com/images/ZEE5_logo.svg?ver=2.51.46"
+          alt="zee5"
+        />
+      </div>
+      <div onclick="window.location.href='login.html'">
+        <button style="cursor: pointer">Login</button>
+      </div>
+    </div>
+
+    <div id="blackCover">
+      <!-- corosel of text is here -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">Anytime Big Entertainment</div>
+          <div class="swiper-slide">Kids Content & Parental Control</div>
+          <div class="swiper-slide">Eduaurra e-learning access</div>
+        </div>
+      </div>
+      <!-- buy card with pricing-->
+
+      <div id="steps">
+        <div id="step">Step 1 of 3</div>
+        <div id="subs">Subscribe to Premium</div>
+      </div>
+
+      <div id="mainDiv">
+        <div id="nav"></div>
+
+        <div id="buy_data">
+          <h3>Watch Ad-Free with Premium!</h3>
+          <div>
+            &#10004; 2800+ Blockbuster Movies
+            <i class="fa-solid fa-circle-question"></i>
+          </div>
+          <div>
+            &#10004; 150+ Web Series <i class="fa-solid fa-circle-question"></i>
+          </div>
+          <div>
+            &#10004; Live Tv, Before Tv
+            <i class="fa-solid fa-circle-question"></i>
+          </div>
+          <div>
+            &#10004; Offer: Extra 10% OFF on Cards
+            <i class="fa-solid fa-circle-question"></i>
+          </div>
+          <div>&#10004; Watch on Mobile,TV, Laptop</div>
+          <div>
+            &#10004; Eduaurra Competive Exams Learning
+            <i class="fa-solid fa-circle-question"></i>
+          </div>
+        </div>
+
+        <div id="buy_plan">
+          <img
+            id="king"
+            src="https://www.zee5.com/images/premium-ic.svg?ver=2.51.46"
+            alt="crown"
+          />
+
+          <div>
+            <div id="buy_data2">
+              <div>
+                <h5 id="blue_text">LIMITED PERIOD OFFER</h5>
+                <h4>12 months plan</h4>
+                <hr />
+                <div><p>Effective price Rs.50/month</p></div>
+              </div>
+
+              <div id="buy_d">
+                <div>Save 40%</div>
+                <div>
+                  <i class="fa-solid fa-indian-rupee-sign"></i><span>599</span>
+                  <div class="round">
+                    <input
+                      type="checkbox"
+                      onclick="five()"
+                      class="five"
+                      checked
+                      id="checkbox"
+                    />
+                    <label for="checkbox"></label>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="buy_data_2">
+              <div>3 months plan</div>
+              <div id="tre">
+                <span>Rs.399</span>
+                <div class="round">
+                  <input
+                    type="checkbox"
+                    onclick="three()"
+                    class="three"
+                    checked
+                    id="checkbox"
+                  />
+                  <label for="checkbox"></label>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal__wrapper">
+            <div class="modal__container">
+              <button class="close">&times;</button>
+              <h2>Save 40%</h2>
+              <p>annually by opting for ₹599 plan</p>
+              <div id="divforflex">
+                <div id="first_popDiv">
+                  <p id="offer">RECOMMENDED</p>
+                  <h4>12 months plan</h4>
+                  <h1>₹599</h1>
+                  <div class="round">
+                    <input type="checkbox" checked id="checkbox" />
+                    <label for="checkbox"></label>
+                  </div>
+                  <div id="save">SAVE 40%</div>
+                </div>
+
+                <div id="first_popDiv">
+                  <h4>3 months plan</h4>
+                  <h1>₹399</h1>
+                  <div class="round">
+                    <input type="checkbox" checked id="checkbox" />
+                    <label for="checkbox"></label>
+                  </div>
+                </div>
+              </div>
+              <div class="action" onclick="window.location.href='payment.html'">
+                <button class="btn__purple">Continue</button>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn__purple" id="trigger">
+            Continue with <span id="buyButen_Price"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 0,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
+<script src="../scripts/buy.js"></script>
