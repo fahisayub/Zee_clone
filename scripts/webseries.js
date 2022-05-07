@@ -7,3 +7,7 @@ features('webseries');
 import { footer } from '../components/footer.js';
 document.querySelector('#footer_top').innerHTML=footer();
 //.........................................................//
+//slider
+import { webseriesslider,swiperfn } from '../components/webseries_slider.js';
+document.getElementById('swiper').innerHTML=webseriesslider();
+swiperfn();

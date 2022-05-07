@@ -7,3 +7,7 @@ features('tvshow');
 import { footer } from '../components/footer.js';
 document.querySelector('#footer_top').innerHTML=footer();
 //.........................................................//
+//slider
+import { tvshowslider,swiperfn } from '../components/tvshow_slider.js';
+document.getElementById('swiper').innerHTML=tvshowslider();
+swiperfn();
