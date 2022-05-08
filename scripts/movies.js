@@ -9,7 +9,7 @@ document.querySelector('#footer_top').innerHTML=footer();
 //.........................................................//
 //slider
 import { movieslider,swiperfn } from '../components/movie_slider.js';
-document.getElementById('swiper').innerHTML=movieslider();
+document.getElementById('slider').innerHTML=movieslider();
 swiperfn();
 //featured celibrities slider
 import { celibrity_slider,celibfn } from '../components/celibrity_slider.js';
