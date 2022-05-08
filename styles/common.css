@@ -9,3 +9,13 @@ html,body{
     min-height: 100%;
     z-index: 0;
 }
+::-webkit-scrollbar {
+    width: 7px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(56, 55, 55); 
+    border-radius: 15px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(168, 155, 155); 
+}

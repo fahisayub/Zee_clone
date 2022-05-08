@@ -14,7 +14,8 @@ body {
 } */
 #slider{
     display: flex;
-    /* height:400px */
+    height:400px
+    
 }
 
 .swiper {

@@ -9,7 +9,7 @@ document.querySelector('#footer_top').innerHTML=footer();
 //.........................................................//
 //slider
 import { movieslider,swiperfn } from '../components/movie_slider.js';
-document.getElementById('slider').innerHTML=movieslider();
+document.getElementById('swiper').innerHTML=movieslider();
 swiperfn();
 //.............................................................//
 //jsslider
