@@ -12,3 +12,8 @@ document.querySelector('#footer_top').innerHTML=footer();
 import { homeslider,swiperfn } from '../components/homeslider.js';
 document.getElementById('slider').innerHTML=homeslider();
 swiperfn();
+//.......................................................//
+//learn
+import { learn_slider,learnfn } from '../components/learn_slider.js';
+document.getElementById('learn').innerHTML=learn_slider();
+learnfn();
