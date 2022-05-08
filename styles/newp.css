@@ -3,7 +3,7 @@
     display: flex;
 } */
 
-.zee-heading>h1,h3{
+.zee-heading>h1,.zee-heading>h3{
     color: aliceblue;
 }
 .super {

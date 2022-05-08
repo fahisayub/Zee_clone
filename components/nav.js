@@ -21,7 +21,7 @@ let getvideos = async () => {
 let navbar = () => {
     return `
     <ul id="lnav">
-      <a href=""><img id="navlogo" src="https://www.zee5.com/images/ZEE5_logo.svg?ver=2.51.46" alt=""></a>
+      <a href="../index.html"><img id="navlogo" src="https://www.zee5.com/images/ZEE5_logo.svg?ver=2.51.46" alt=""></a>
 
 
       <li><a class="h_onhover" id="home" href="../index.html">Home</a></li>
@@ -145,7 +145,7 @@ let navtvshow = (data, id, appendto) => {
                 }
                 localStorage.setItem('tvshow', JSON.stringify(show));
                 window.location.href = '../pages/tvshow_intropage.html'
-            } else if (appendto == '.drop_movies') {
+            } else  {
                 window.location.href = '../pages/youtube.html';
             }
 

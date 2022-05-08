@@ -40,7 +40,7 @@ let append=(data)=>{
     });
     const showVid=(x)=>{
         localStorage.setItem('video',JSON.stringify(x));
-        window.location.href='../pages/video.html';
+        window.location.href='../pages/youtube.html';
     
     }
     
