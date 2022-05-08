@@ -15,3 +15,4 @@ swiperfn();
 import { celibrity_slider,celibfn } from '../components/celibrity_slider.js';
 document.getElementById('f_celibrites').innerHTML=celibrity_slider();
 celibfn();
+

@@ -1,0 +1,88 @@
+/* #zeeplex{
+    border: 1px solid;
+    display: flex;
+} */
+
+.zee-heading>h1,h3{
+    color: aliceblue;
+}
+.super {
+    /* border: 10px solid; */
+    overflow: auto;
+    /* overflow: hidden; */
+    white-space: nowrap;
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.super>div {
+    display: inline-block;
+}
+
+.dbox {
+    /* border: 1px solid; */
+    margin-left: 20px;
+    /* width: 600px; */
+    margin-bottom: 10px;
+}
+
+.dbox>img {
+    width: 700px;
+
+}
+
+.ptex {
+    display: flex;
+    margin-top: -10px;
+    height: 40px;
+    justify-content: space-between;
+    color: rgb(209, 209, 199);
+    padding: 20px;
+    background: rgb(141, 0, 255);
+    background: linear-gradient(90deg, rgba(141, 0, 255, 1) 9%, rgba(81, 4, 194, 1) 21%, rgba(9, 9, 121, 1) 62%, rgba(2, 0, 36, 1) 85%);
+}
+
+.ptex>div>h2 {
+    margin-top: -4px;
+    color: aliceblue;
+}
+
+.ptex>div>p {
+    margin-top: -15px;
+    /* font-size: medium; */
+    font-weight: 600;
+}
+
+.ptex>img {
+    height: 40px;
+}
+
+#zeeplex {
+    /* border: 1px solid; */
+    width: 95%;
+    margin-left: 5%;
+}
+
+/* on scroll bar */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #6b6a6a;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(155, 154, 154);
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(219, 219, 219);
+}
