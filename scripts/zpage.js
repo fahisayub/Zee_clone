@@ -1,6 +1,17 @@
-import {zeePlexObj2} from "./zeePlex.js"
+//navbar
+import {features,navbar} from '../components/nav.js'
+document.querySelector('#navbar').innerHTML=navbar();
+features('tvshow');
+//.........................................................//
+//footer
+import { footer } from '../components/footer.js';
+document.querySelector('#footer_top').innerHTML=footer();
+//.........................................................//
 
-console.log(zeePlexObj2)
+import {zeedata2} from "../components/zeePlex.js"
+
+console.log(zeedata2);
+let data=zeedata2();
 
 let Super = document.getElementById("plexdata")
 
@@ -9,7 +20,7 @@ Super.innerHTML = `<div><h2>Now Showing</h2></div>`
 let dis = document.createElement("div")
 dis.setAttribute("id", "pmain")
 
-zeePlexObj2.forEach((ele)=>{
+data.forEach((ele)=>{
     // console.log(ele)
 
     let box = document.createElement("div")
@@ -68,5 +79,5 @@ zeePlexObj2.forEach((ele)=>{
 })
 
 function showtrailer(){
-    window.location.href="showVideo.html"
+    window.location.href="../pages/youtube.html";
 }

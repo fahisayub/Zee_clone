@@ -11,3 +11,11 @@ document.querySelector('#footer_top').innerHTML=footer();
 import { webseriesslider,swiperfn } from '../components/webseries_slider.js';
 document.getElementById('slider').innerHTML=webseriesslider();
 swiperfn();
+//...........................................................//
+//jsslider
+import {slideHtml,slidecontrol} from "../components/rawhtml.js";
+
+let h = document.getElementById("jsSlide")
+h.innerHTML = slideHtml()
+slidecontrol();
+//..............................................................//
