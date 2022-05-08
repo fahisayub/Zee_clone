@@ -11,3 +11,7 @@ document.querySelector('#footer_top').innerHTML=footer();
 import { movieslider,swiperfn } from '../components/movie_slider.js';
 document.getElementById('swiper').innerHTML=movieslider();
 swiperfn();
+//featured celibrities slider
+import { celibrity_slider,celibfn } from '../components/celibrity_slider.js';
+document.getElementById('f_celibrites').innerHTML=celibrity_slider();
+celibfn();

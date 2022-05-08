@@ -1,6 +1,4 @@
-* {
-    background-color: black;
-}
+
 .next2-B {
     cursor: pointer;
     position: absolute;
@@ -60,39 +58,6 @@
 }
 
 
-
-  /* .card_container-B {
-      height: 250px;
-      display: flex;
-      align-items: center;
-      transform: translateX(0);
-      transition: all 0.4s ease-in-out;
-      border: 1px solid red
-  
-  } */
-  /* .card-B{
-      min-width: 100px;
-      height: 250px;
-      border-radius: 5px;
-      margin-top: 1%;
-      position: relative;
-      transition: 00.3s;
-      margin-right: 25px;
-      border: 1px solid green;
-
-  } */
-    
-  
-  /* .card-B >img{
-      width: 100%;
-      height: 250px;
-      border-radius: 50%;
-  } */
-
-  /* .card-B:hover .text-B{
-      display: inherit;
-  } */
-  
    
 
   
