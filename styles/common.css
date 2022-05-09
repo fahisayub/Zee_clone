@@ -4,6 +4,9 @@ html,body{
     background-color: #0f0617;
 
 }
+a,button{
+    cursor: pointer;
+}
 #content{
     margin-top: 70px;
     min-height: 100%;

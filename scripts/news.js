@@ -19,3 +19,8 @@ let h = document.getElementById("jsSlide")
 h.innerHTML = slideHtml()
 slidecontrol();
 //..............................................................//
+//newsslider
+import { livenews_controll,livenews_slider } from '../components/livenews_slider.js';
+document.getElementById('livenews').innerHTML=livenews_slider();
+livenews_controll();
+//............................................................//

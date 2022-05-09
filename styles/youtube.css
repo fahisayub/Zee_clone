@@ -69,7 +69,7 @@ body{
 }
 #local>div:hover{
     outline: 6px solid white;
-    transform: scale(1.03);  
+    transform: scale(0.95);  
 }
 .text>div{
     width: 90%;
@@ -80,6 +80,7 @@ body{
 }
 .blue_butten{
     background-color: blue;
+    
     border: none;
     border-radius: 5px;
     padding: 5px;

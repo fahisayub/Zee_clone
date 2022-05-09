@@ -34,7 +34,8 @@
 /* ----------------------------------heading End --------------------- */
 
 .cardbox_container {
-  height: 480px;
+    /* border: 1px solid white; */
+  height: 400px;
     display: flex;
     align-items: center;
     transform: translateX(0);

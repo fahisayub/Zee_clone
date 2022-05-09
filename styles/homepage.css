@@ -1,7 +1,7 @@
 .next2-A {
     cursor: pointer;
     position: absolute;
-    top: 50%;
+    top: 60%;
     width: auto;
     padding: 16px;
     margin-top: -22px;
@@ -19,7 +19,7 @@
     border-radius: 3px 0 0 3px;
   }
   .next2-A:hover {
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(168, 167, 167, 0.8);
   }
   
 
@@ -126,6 +126,7 @@
       display: inherit;
   }
   .text-A >p{
+      color:black;
       padding: 1% 1.5%;
       font-size: 14px;
       font-weight: bold;

@@ -23,7 +23,8 @@ Data.forEach((el)=>{
     let div2 = sorter("div"); //3rd div for title
     div2.setAttribute("class","text")
    
-    let title = sorter("p"); 
+    let title = sorter("h4"); 
+    title.style.color='black';
     title.setAttribute("class","overlay")
     title.innerText=el.moviename;
 
