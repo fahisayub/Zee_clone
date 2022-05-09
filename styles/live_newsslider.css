@@ -1,10 +1,10 @@
 /* * {
     background-color: black;
 } */
- .next2-A,.next2-B {
+ .next {
     cursor: pointer;
     position: absolute;
-    top: 30%;
+    top: 55%;
     width: auto;
     padding: 16px;
     margin-top: -22px;
@@ -14,13 +14,14 @@
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
+    background-color: rgba(46, 41, 41, 0.553);
   }
   
-  .next2-A,.next2-B {
+  .next {
     right: 0%;
     border-radius: 3px 0 0 3px;
   }
-  .next2-A:hover,.next2-B {
+  .next:hover {
     background-color: rgba(0,0,0,0.8);
   }
   
@@ -30,11 +31,11 @@
   }
   
 
-  .top_heading>a, .text_bottom-A>a, .crown-A>a {
+  .top_heading>a, .rect_bottom_text>a, .crown-A>a {
     text-decoration: none;
    }
    
-.container-A{
+.rect_containerbox{
     width: 90%;
     margin: auto;
     position: relative;
@@ -50,7 +51,7 @@
 
 
 .top_heading-A>p,a{
-    margin-top: 10px;
+    margin-top: 20px;
 }
 .top_heading-A a{
     color:#a785ff;
@@ -58,7 +59,7 @@
 
 
 
-  .card_container-A,.card_container-B,.card_container-C,.card_container-D {
+  .rectcard_container{
       height: 250px;
       display: flex;
       align-items: center;
@@ -68,10 +69,10 @@
      
   
   }
-  .card-A{
+  .rect_card{
       
       min-width: 250px;
-      height: 250px;
+      height: 200px;
       border-radius: 5px;
       margin-top: 1%;
       position: relative;
@@ -79,12 +80,12 @@
       margin-right: 25px;
   
   }
-  .card-A:hover{
+  .rect_card:hover{
       transform: scale(1.1);
       border: 4px solid #ffffff;
       /* height: 350px; */
   }
-  .crown-A{
+  /* .crown-A{
       position: absolute;
       top: 1%;
       left: 1%;
@@ -102,61 +103,65 @@
      background-color: #ffffff;
     
   
-  }
-  .card-A >img{
+  } */
+  .rect_card >img{
       width: 100%;
-      height: 80%;
+      height: 100%;
       border-radius: 5px;
       
   }
-  .text-A{
+  .recttext_content{
       width: 100%;
       position: absolute;
       bottom: 0;
       background-color: #ffffff;
-      padding-bottom: 10px;
+      padding-bottom: 0px;
       /* border-radius: 5px; */
-      line-height: 2;
+      line-height: 1;
       padding-left: 2%;
       display: none;
       transition: 0.4s;
+      box-sizing: border-box;
   }
-  .card-A:hover .text-A{
+  .rect_card:hover .recttext_content{
       display: inherit;
   }
-  .text-A >p{
+  .recttext_content >p{
       padding: 1% 1.5%;
       font-size: 14px;
       font-weight: bold;
-      
+      color: black;
+
   }
-  .text_bottom-A{
+  .rect_bottom_text{
       display: flex;
       align-items: center;
       
   }
-  .text_bottom-A a{
+  .rect_bottom_text a{
       border: 1px solid gray;
+      color: black;
       padding: 1% 2.5%;
       border-radius: 8px;
       font-size: 12px;
       font-weight: 600;
       margin-right: 10px;
   }
-  .text_bottom-A a +p{
+  .rect_bottom_text a +p{
+      color: black;
       margin-top: 25px;
   }
-  .text_bottom-A a:hover{
+  .rect_bottom_text a:hover{
       background-color: #210a64;
       color: #ffffff;
   }
-  .text_bottom-A p{
+  .rect_bottom_text p{
       color: gray;
   }
   
     
   
-  .movie-list-wrapper-A {
+  .news-list-wrapper-A {
     position: relative;
     overflow: hidden;
     background-color: #08011a;;
@@ -184,7 +189,7 @@
     
   }
 
-  .card-A >img{
+  .rect_card >img{
     width: 100%;
     height: 80%;
     border-radius: 5px;
@@ -204,7 +209,7 @@
     
 }
 
-.card-A >img{
+.rect_card >img{
     width: 100%;
     height: 80%;
     border-radius: 5px;

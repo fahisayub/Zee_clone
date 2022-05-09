@@ -49,6 +49,7 @@
 
 .ptex>div>p {
     margin-top: -15px;
+    background-color:rgba(255, 255, 255, 0.021);
     /* font-size: medium; */
     font-weight: 600;
 }

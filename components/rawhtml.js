@@ -191,7 +191,7 @@ var slideHtml = () => {
                 <img src="../img/s1.webp" alt="Mithya">
                 <div class="crownicon"><a href="#"><i class="fa-solid fa-crown"></i></a></div>
                 <div class="text_content">
-                    <p>Mithya</p>
+                    <h2>Mithya</h2>
                     <div class="bottom_text">
                         <a href="../pages/youtube.html"><i class="fa-solid fa-play"></i> Watch</a> 
                         <p><i class="fa-solid fa-share-nodes"></i> More</p>
@@ -204,7 +204,7 @@ var slideHtml = () => {
                 <img src="../img/s2.webp" alt="Mithya">
                 <div class="crownicon"><a href="#"><i class="fa-solid fa-crown"></i></a></div>
                 <div class="text_content">
-                    <p>Topnic</p>
+                    <h2>Topnic</h2>
                     <div class="bottom_text">
                         <a href="../pages/youtube.html"><i class="fa-solid fa-play"></i> Watch</a> 
                         <p><i class="fa-solid fa-share-nodes"></i> More</p>
@@ -218,7 +218,7 @@ var slideHtml = () => {
                 <img src="../img/s3.webp" alt="Mithya">
                 <div class="crownicon"><a href="#"><i class="fa-solid fa-crown"></i></a></div>
                 <div class="text_content">
-                    <p>Sudaksinar Sari</p>
+                    <h2>Sudaksinar Sari</h2>
                     <div class="bottom_text">
                         <a href="../pages/youtube.html"><i class="fa-solid fa-play"></i> Watch</a> 
                         <p><i class="fa-solid fa-share-nodes"></i> More</p>
@@ -232,7 +232,7 @@ var slideHtml = () => {
                 <img src="../img/s4.webp" alt="Mithya">
                 <div class="crownicon"><a href="#"><i class="fa-solid fa-crown"></i></a></div>
                 <div class="text_content">
-                    <p>Bini Sutoy</p>
+                    <h2>Bini Sutoy</h2>
                     <div class="bottom_text">
                         <a href="../pages/youtube.html"><i class="fa-solid fa-play"></i> Watch</a> 
                         <p><i class="fa-solid fa-share-nodes"></i> More</p>
@@ -245,7 +245,7 @@ var slideHtml = () => {
                 <img src="../img/s5.webp" alt="Mithya">
                 <div class="crownicon"><a href="#"><i class="fa-solid fa-crown"></i></a></div>
                 <div class="text_content">
-                    <p>Onek Diner Por</p>
+                    <h2>Onek Diner Por</h2>
                     <div class="bottom_text">
                         <a href="../pages/youtube.html"><i class="fa-solid fa-play"></i> Watch</a> 
                         <p><i class="fa-solid fa-share-nodes"></i> More</p>
@@ -258,7 +258,7 @@ var slideHtml = () => {
                 <img src="../img/s6.webp" alt="Mithya">
                 <div class="crownicon"><a href="#"><i class="fa-solid fa-crown"></i></a></div>
                 <div class="text_content">
-                    <p>Bonolota</p>
+                    <h2>Bonolota</h2>
                     <div class="bottom_text">
                         <a href="../pages/youtube.html"><i class="fa-solid fa-play"></i> Watch</a> 
                         <p><i class="fa-solid fa-share-nodes"></i> More</p>
@@ -271,7 +271,7 @@ var slideHtml = () => {
                 <img src="../img/s7.webp" alt="Mithya">
                 <div class="crownicon"><a href="#"><i class="fa-solid fa-crown"></i></a></div>
                 <div class="text_content">
-                    <p>Bijaya</p>
+                    <h2>Bijaya</h2>
                     <div class="bottom_text">
                         <a href="../pages/youtube.html"><i class="fa-solid fa-play"></i> Watch</a> 
                         <p><i class="fa-solid fa-share-nodes"></i> More</p>
@@ -284,7 +284,7 @@ var slideHtml = () => {
             <img src="../img/s1.webp" alt="Mithya">
             <div class="crownicon"><a href="#"><i class="fa-solid fa-crown"></i></a></div>
             <div class="text_content">
-                <p>Satyameva Jayate</p>
+                <h2>Satyameva Jayate</h2>
                 <div class="bottom_text">
                     <a href="../pages/youtube.html"><i class="fa-solid fa-play"></i> Watch</a> 
                     <p><i class="fa-solid fa-share-nodes"></i> More</p>
@@ -298,7 +298,7 @@ var slideHtml = () => {
             <img src="../img/s2.webp" alt="Mithya">
             <div class="crownicon"><a href="#"><i class="fa-solid fa-crown"></i></a></div>
             <div class="text_content">
-                <p>Dream Girl</p>
+                <h2>Dream Girl</h2>
                 <div class="bottom_text">
                     <a href="../pages/youtube.html"><i class="fa-solid fa-play"></i> Watch</a> 
                     <p><i class="fa-solid fa-share-nodes"></i> More</p>
@@ -311,7 +311,7 @@ var slideHtml = () => {
         <img src="../img/s4.webp" alt="Mithya">
         <div class="crownicon"><a href="#"><i class="fa-solid fa-crown"></i></a></div>
         <div class="text_content">
-            <p>Kori Khala</p>
+            <h2>Kori Khala</h2>
             <div class="bottom_text">
                 <a href="../pages/youtube.html"><i class="fa-solid fa-play"></i> Watch</a> 
                 <p><i class="fa-solid fa-share-nodes"></i> More</p>
@@ -323,7 +323,7 @@ var slideHtml = () => {
                 <img src="../img/s6.webp" alt="Mithya">
                 <div class="crownicon"><a href="#"><i class="fa-solid fa-crown"></i></a></div>
                 <div class="text_content">
-                    <p>Helmet</p>
+                    <h2>Helmet</h2>
                     <div class="bottom_text">
                         <a href="../pages/youtube.html"><i class="fa-solid fa-play"></i> Watch</a> 
                         <p><i class="fa-solid fa-share-nodes"></i> More</p>
@@ -336,7 +336,7 @@ var slideHtml = () => {
         <img src="../img/s7.webp" alt="Mithya">
         <div class="crownicon"><a href="#"><i class="fa-solid fa-crown"></i></a></div>
         <div class="text_content">
-            <p>Jiban Sathi</p>
+            <h2>Jiban Sathi</h2>
             <div class="bottom_text">
                 <a href="../pages/youtube.html"><i class="fa-solid fa-play"></i> Watch</a> 
                 <p><i class="fa-solid fa-share-nodes"></i> More</p>
@@ -363,7 +363,7 @@ var slideHtml = () => {
 <div class="movie-list-wrapper">
 <div class="containerbox">
     <div class="heading_top">
-        <p>Top Bhojpuri Movies</p>
+        <h2>Top Bhojpuri Movies</h2>
         <a href="./more3.html">More <i class="fa-solid fa-angle-right"></i></a>
     </div>
     
@@ -373,7 +373,7 @@ var slideHtml = () => {
             <img src="../img/b1.webp" alt="Mithya">
             <div class="crownicon"><a href="#"><i class="fa-solid fa-crown"></i></a></div>
             <div class="text_content">
-                <p>Mithya</p>
+                <h2>Mithya</h2>
                 <div class="bottom_text">
                     <a href="../pages/youtube.html"><i class="fa-solid fa-play"></i> Watch</a> 
                     <p><i class="fa-solid fa-share-nodes"></i> More</p>
@@ -386,7 +386,7 @@ var slideHtml = () => {
             <img src="../img/b3.webp" alt="Mithya">
             <div class="crownicon"><a href="#"><i class="fa-solid fa-crown"></i></a></div>
             <div class="text_content">
-                <p>Mithya</p>
+                <h2>Mithya</h2>
                 <div class="bottom_text">
                     <a href="../pages/youtube.html"><i class="fa-solid fa-play"></i> Watch</a> 
                     <p><i class="fa-solid fa-share-nodes"></i> More</p>
@@ -400,7 +400,7 @@ var slideHtml = () => {
             <img src="../img/b4.webp" alt="Mithya">
             <div class="crownicon"><a href="#"><i class="fa-solid fa-crown"></i></a></div>
             <div class="text_content">
-                <p>Mithya</p>
+                <h2>Mithya</h2>
                 <div class="bottom_text">
                     <a href="../pages/youtube.html"><i class="fa-solid fa-play"></i> Watch</a> 
                     <p><i class="fa-solid fa-share-nodes"></i> More</p>
@@ -414,7 +414,7 @@ var slideHtml = () => {
             <img src="../img/b5.webp" alt="Mithya">
             <div class="crownicon"><a href="#"><i class="fa-solid fa-crown"></i></a></div>
             <div class="text_content">
-                <p>Mithya</p>
+                <h2>Mithya</h2>
                 <div class="bottom_text">
                     <a href="../pages/youtube.html"><i class="fa-solid fa-play"></i> Watch</a> 
                     <p><i class="fa-solid fa-share-nodes"></i> More</p>
@@ -427,7 +427,7 @@ var slideHtml = () => {
             <img src="../img/b6.webp" alt="Mithya">
             <div class="crownicon"><a href="#"><i class="fa-solid fa-crown"></i></a></div>
             <div class="text_content">
-                <p>Mithya</p>
+                <h2>Mithya</h2>
                 <div class="bottom_text">
                     <a href="../pages/youtube.html"><i class="fa-solid fa-play"></i> Watch</a> 
                     <p><i class="fa-solid fa-share-nodes"></i> More</p>
@@ -440,7 +440,7 @@ var slideHtml = () => {
             <img src="../img/b7.webp" alt="Mithya">
             <div class="crownicon"><a href="#"><i class="fa-solid fa-crown"></i></a></div>
             <div class="text_content">
-                <p>Mithya</p>
+                <h2>Mithya</h2>
                 <div class="bottom_text">
                     <a href="../pages/youtube.html"><i class="fa-solid fa-play"></i> Watch</a> 
                     <p><i class="fa-solid fa-share-nodes"></i> More</p>
@@ -453,7 +453,7 @@ var slideHtml = () => {
             <img src="../img/b8.webp" alt="Mithya">
             <div class="crownicon"><a href="#"><i class="fa-solid fa-crown"></i></a></div>
             <div class="text_content">
-                <p>Mithya</p>
+                <h2>Mithya</h2>
                 <div class="bottom_text">
                     <a href="../pages/youtube.html"><i class="fa-solid fa-play"></i> Watch</a> 
                     <p><i class="fa-solid fa-share-nodes"></i> More</p>
@@ -466,7 +466,7 @@ var slideHtml = () => {
         <img src="../img/b9.webp" alt="Mithya">
         <div class="crownicon"><a href="#"><i class="fa-solid fa-crown"></i></a></div>
         <div class="text_content">
-            <p>Mithya</p>
+            <h2>Mithya</h2>
             <div class="bottom_text">
                 <a href="../pages/youtube.html"><i class="fa-solid fa-play"></i> Watch</a> 
                 <p><i class="fa-solid fa-share-nodes"></i> More</p>
@@ -480,7 +480,7 @@ var slideHtml = () => {
         <img src="../img/b10.webp" alt="Mithya">
         <div class="crownicon"><a href="#"><i class="fa-solid fa-crown"></i></a></div>
         <div class="text_content">
-            <p>Mithya</p>
+            <h2>Mithya</h2>
             <div class="bottom_text">
                 <a href="../pages/youtube.html"><i class="fa-solid fa-play"></i> Watch</a> 
                 <p><i class="fa-solid fa-share-nodes"></i> More</p>
@@ -493,7 +493,7 @@ var slideHtml = () => {
     <img src="../img/b11.webp" alt="Mithya">
     <div class="crownicon"><a href="#"><i class="fa-solid fa-crown"></i></a></div>
     <div class="text_content">
-        <p>Mithya</p>
+        <h2>Mithya</h2>
         <div class="bottom_text">
             <a href="../pages/youtube.html"><i class="fa-solid fa-play"></i> Watch</a> 
             <p><i class="fa-solid fa-share-nodes"></i> More</p>
@@ -505,7 +505,7 @@ var slideHtml = () => {
             <img src="../img/b12.webp" alt="Mithya">
             <div class="crownicon"><a href="#"><i class="fa-solid fa-crown"></i></a></div>
             <div class="text_content">
-                <p>Mithya</p>
+                <h2>Mithya</h2>
                 <div class="bottom_text">
                     <a href="../pages/youtube.html"><i class="fa-solid fa-play"></i> Watch</a> 
                     <p><i class="fa-solid fa-share-nodes"></i> More</p>
@@ -518,7 +518,7 @@ var slideHtml = () => {
     <img src="../img/b1.webp" alt="Mithya">
     <div class="crownicon"><a href="#"><i class="fa-solid fa-crown"></i></a></div>
     <div class="text_content">
-        <p>Mithya</p>
+        <h2>Mithya</h2>
         <div class="bottom_text">
             <a href="../pages/youtube.html"><i class="fa-solid fa-play"></i> Watch</a> 
             <p><i class="fa-solid fa-share-nodes"></i> More</p>
@@ -548,7 +548,7 @@ var slideHtml = () => {
         <img src="../img/i1.webp" alt="Mithya">
         <div class="crownicon"><a href="#"><i class="fa-solid fa-crown"></i></a></div>
         <div class="text_content">
-            <p>Mithya</p>
+            <h2>Mithya</h2>
             <div class="bottom_text">
                 <a href="../pages/youtube.html"><i class="fa-solid fa-play"></i> Watch</a> 
                 <p><i class="fa-solid fa-share-nodes"></i> More</p>
@@ -561,7 +561,7 @@ var slideHtml = () => {
         <img src="../img/i2.webp" alt="Mithya">
         <div class="crownicon"><a href="#"><i class="fa-solid fa-crown"></i></a></div>
         <div class="text_content">
-            <p>Mithya</p>
+            <h2>Mithya</h2>
             <div class="bottom_text">
                 <a href="../pages/youtube.html"><i class="fa-solid fa-play"></i> Watch</a> 
                 <p><i class="fa-solid fa-share-nodes"></i> More</p>
@@ -575,7 +575,7 @@ var slideHtml = () => {
         <img src="../img/i3.webp" alt="Mithya">
         <div class="crownicon"><a href="#"><i class="fa-solid fa-crown"></i></a></div>
         <div class="text_content">
-            <p>Mithya</p>
+            <h2>Mithya</h2>
             <div class="bottom_text">
                 <a href="../pages/youtube.html"><i class="fa-solid fa-play"></i> Watch</a> 
                 <p><i class="fa-solid fa-share-nodes"></i> More</p>
@@ -589,7 +589,7 @@ var slideHtml = () => {
         <img src="../img/i4.webp" alt="Mithya">
         <div class="crownicon"><a href="#"><i class="fa-solid fa-crown"></i></a></div>
         <div class="text_content">
-            <p>Mithya</p>
+            <h2>Mithya</h2>
             <div class="bottom_text">
                 <a href="../pages/youtube.html"><i class="fa-solid fa-play"></i> Watch</a> 
                 <p><i class="fa-solid fa-share-nodes"></i> More</p>
@@ -602,7 +602,7 @@ var slideHtml = () => {
         <img src="../img/i5.webp" alt="Mithya">
         <div class="crownicon"><a href="#"><i class="fa-solid fa-crown"></i></a></div>
         <div class="text_content">
-            <p>Mithya</p>
+            <h2>Mithya</h2>
             <div class="bottom_text">
                 <a href="../pages/youtube.html"><i class="fa-solid fa-play"></i> Watch</a> 
                 <p><i class="fa-solid fa-share-nodes"></i> More</p>
@@ -615,7 +615,7 @@ var slideHtml = () => {
         <img src="../img/i6.webp" alt="Mithya">
         <div class="crownicon"><a href="#"><i class="fa-solid fa-crown"></i></a></div>
         <div class="text_content">
-            <p>Mithya</p>
+            <h2>Mithya</h2>
             <div class="bottom_text">
                 <a href="../pages/youtube.html"><i class="fa-solid fa-play"></i> Watch</a> 
                 <p><i class="fa-solid fa-share-nodes"></i> More</p>
@@ -628,7 +628,7 @@ var slideHtml = () => {
         <img src="../img/i7.webp" alt="Mithya">
         <div class="crownicon"><a href="#"><i class="fa-solid fa-crown"></i></a></div>
         <div class="text_content">
-            <p>Mithya</p>
+            <h2>Mithya</h2>
             <div class="bottom_text">
                 <a href="../pages/youtube.html"><i class="fa-solid fa-play"></i> Watch</a> 
                 <p><i class="fa-solid fa-share-nodes"></i> More</p>
@@ -641,7 +641,7 @@ var slideHtml = () => {
         <img src="../img/i8.webp" alt="Mithya">
         <div class="crownicon"><a href="#"><i class="fa-solid fa-crown"></i></a></div>
         <div class="text_content">
-            <p>Mithya</p>
+            <h2>Mithya</h2>
             <div class="bottom_text">
                 <a href="../pages/youtube.html"><i class="fa-solid fa-play"></i> Watch</a> 
                 <p><i class="fa-solid fa-share-nodes"></i> More</p>
@@ -655,7 +655,7 @@ var slideHtml = () => {
     <img src="../img/i9.webp" alt="Mithya">
     <div class="crownicon"><a href="#"><i class="fa-solid fa-crown"></i></a></div>
     <div class="text_content">
-        <p>Mithya</p>
+        <h2>Mithya</h2>
         <div class="bottom_text">
             <a href="../pages/youtube.html"><i class="fa-solid fa-play"></i> Watch</a> 
             <p><i class="fa-solid fa-share-nodes"></i> More</p>
@@ -668,7 +668,7 @@ var slideHtml = () => {
     <img src="../img/i10.webp" alt="Mithya">
     <div class="crownicon"><a href="#"><i class="fa-solid fa-crown"></i></a></div>
     <div class="text_content">
-        <p>Mithya</p>
+        <h2>Mithya</h2>
         <div class="bottom_text">
             <a href="../pages/youtube.html"><i class="fa-solid fa-play"></i> Watch</a> 
             <p><i class="fa-solid fa-share-nodes"></i> More</p>
@@ -680,7 +680,7 @@ var slideHtml = () => {
         <img src="../img/i11.webp" alt="Mithya">
         <div class="crownicon"><a href="#"><i class="fa-solid fa-crown"></i></a></div>
         <div class="text_content">
-            <p>Mithya</p>
+            <h2>Mithya</h2>
             <div class="bottom_text">
                 <a href="../pages/youtube.html"><i class="fa-solid fa-play"></i> Watch</a> 
                 <p><i class="fa-solid fa-share-nodes"></i> More</p>
@@ -693,7 +693,7 @@ var slideHtml = () => {
     <img src="../img/i12.webp" alt="Mithya">
     <div class="crownicon"><a href="#"><i class="fa-solid fa-crown"></i></a></div>
     <div class="text_content">
-        <p>Mithya</p>
+        <h2>Mithya</h2>
         <div class="bottom_text">
             <a href="../pages/youtube.html"><i class="fa-solid fa-play"></i> Watch</a> 
             <p><i class="fa-solid fa-share-nodes"></i> More</p>
